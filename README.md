@@ -24,7 +24,9 @@ Or, if you only want to get one customer, then you would append the customer `id
 
 Edit `index.php` and change the `$dsn` variable located at the top, here are some examples:
 
-- SQLite: `$dsn = 'sqlite://./path/to/database.sqlite';`
+- SQLite: `$dsn = 'sqlite://./path/to/database.sqlite';` 
+         sample: $dsn = 'sqlite://d:/xampp/htdocs/TodoList/db/db.sqlite';
+	 
 - MySQL: `$dsn = 'mysql://[user[:pass]@]host[:port]/db/;`
 - PostgreSQL: `$dsn = 'pgsql://[user[:pass]@]host[:port]/db/;`
 
